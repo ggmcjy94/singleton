@@ -18,7 +18,7 @@
  
 4. 싱글톤 구현 6가지
  
- 1. eager-initialization
+ 1 - eager-initialization
  - 가장 간단한 형태의 구현 방법이다. 이는 싱글톤 클래스의 인스턴스를 클래스 로딩 간계에서 생성하는 방법이다.
  - 어플리케이션에서 해당 인스턴스를 사용하지 않더라도 인스턴스를 생성하기 때문에 자칫 낭비가 발생할 수 있음
  - 이 방법을 사용할 때는 싱글톤 클래스가 다소 적은 리소스를 다룰 때여야 함
@@ -26,7 +26,7 @@
 싱글톤 인스턴스를 생성하지 않는 것이 더 좋다.
  - 그리고 이방식은 exception handleing도 제공하지 않음
  
- 2. static block initialization 
+ 2 - static block initialization 
  - 
  
 5. 싱글톤 구현 
